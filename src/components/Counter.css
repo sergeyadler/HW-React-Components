@@ -1,0 +1,52 @@
+/* Контейнер */
+#counter-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    width: 250px;
+    margin: 30px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Заголовок */
+h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 0;
+}
+
+/* Кнопки */
+button {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Кнопка минус отдельным цветом */
+button:nth-of-type(2) {
+    background: linear-gradient(135deg, #e53935, #b71c1c);
+}
+
+/* Ховер эффект */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Активное нажатие */
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
