@@ -13,7 +13,7 @@ function Greeting() {
                 }>Submit</button>
 
 
-                {greeting && <h1>{greeting}</h1>}
+               <h1>{greeting}</h1>
             </div>
 
     )

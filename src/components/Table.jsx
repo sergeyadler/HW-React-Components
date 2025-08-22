@@ -4,11 +4,14 @@ function Table(){
         return (
             <div id="table-div">
             <table>
+                <thead>
                 <tr>
                     <th>Book</th>
                     <th>Author</th>
-                    <th>Country</th>
+                    <th>Сitation</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Harry Potter and the Philosopher’s Stone</td>
                     <td>J.K. Rowling</td>
@@ -30,8 +33,11 @@ function Table(){
                     <td>J.R.R. Tolkien</td>
                     <td>“There is nothing like looking, if you want to find something.”</td>
                 </tr>
+                </tbody>
+
             </table>
             </div>
         )
+
     }
 export default Table;
